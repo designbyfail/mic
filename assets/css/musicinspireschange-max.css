@@ -1,0 +1,135 @@
+/* Music Insipires Change CSS v1.0 | (c) 2016 by Sheikh Ahmed */
+
+
+/* MASTER STYLES */
+body {
+	background-color: #efefef;
+}
+
+nav figure {	
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+nav img {	
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+main {
+	display: block;
+	min-height: 500px;
+	line-height: 1.3em;
+	font-size: 1em;
+	font-family: "robotolight", Helvetica, Arial, sans-serif;
+	color: #333;
+	margin-bottom: 50px;
+}
+
+article {
+	display: block;
+	clear: both;
+	padding-bottom: 100px;
+	float: left;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+figure { 
+	display: block;
+	width: 100%;
+	margin: 0 auto; 
+	text-align: center;
+}
+	
+a {
+	color: #333;
+	text-decoration: none;
+	line-height: 1em;
+	font-family: "robotoregular", Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+article a {
+	padding: 5px;
+	color: #efefef;
+	background: #333;
+	text-decoration: none;
+	line-height: 1em;
+	font-family: "robotoregular", Helvetica, Arial, sans-serif;
+}
+
+article a:hover {
+	color: #333;
+	background: #fff;
+}
+
+aside {
+	margin-top: 75px;
+}
+
+aside p {
+	margin-bottom: 50px;
+}
+
+iframe {
+	padding-top: 30px;
+	width: 100%;
+}
+
+.mic-error {
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.3em;
+	font-family: "robotolight", Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup {
+	background: #fff; 
+	clear: left; 
+	font: 14px Helvetica,Arial,sans-serif; 
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 770px) {
+
+	aside {
+		width: 100%;
+		margin: 0 auto; 
+		padding-bottom: 30px;
+	}
+
+	aside p {
+		display: inline-block;
+		margin-bottom: 0px;
+		text-align: center;
+		width: 100%;
+	}
+
+	p.mic-credits {
+		display: none;
+	}
+
+	figure { 
+		display: block;
+		width: 100%;
+		margin: 0 auto; 
+		text-align: center;
+	}
+
+	img {
+		width: 75%;
+		max-width: 75%;
+	}
+
+}

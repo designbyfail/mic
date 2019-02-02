@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://musicinsipireschange.com/sitemap.xml
